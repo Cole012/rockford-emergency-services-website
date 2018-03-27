@@ -1,0 +1,288 @@
+label { 
+	display: block; 
+	width: 9em; 
+	float: left; 
+}
+
+body {
+	margin: 8px;
+	background: url('https://livedemo00.template-help.com/joomla_53859/templates/theme3112/images/template/bodyBg.jpg') 100% 0 repeat fixed;
+}
+
+#register-title {
+	color: #007bff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.table td, .table th {
+    padding: .5rem;
+    vertical-align: middle;
+    border: none;
+}
+
+input[type="text"], input[type="password"] {
+	width: 100%;
+	height: 35px;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid rgba(25,25,25,0.4);
+	color: rgba(25,25,25,0.4);
+}
+
+[type=submit] {
+	height: 40px;
+}
+
+html,body {
+	height:100%;
+}
+
+.figure-img {
+	margin-bottom:0!important;
+}
+
+.figure {
+	margin: 0!important;
+}
+
+section {
+    min-height:calc(100% - 70px);
+}
+
+#submitRegistration:hover {
+	color: rgba(25,25,25,1);
+	background-color: rgba(96,96,106,0.8);
+	box-shadow: 2px 3px 4px rgba(75,75,85,0.7);
+	transition: 0.6s ease;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, #submitRegistration:focus {
+	outline-width: 0;
+}
+
+#body-container {
+	box-shadow: 5px 10px;
+}
+
+#submitRegistration {
+	width: 100%;
+	background-color: rgba(25,25,25,0.6);
+	box-shadow: 2px 3px 4px rgba(25,25,25,0.7);
+	border: none;
+
+	color: darkgray;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.affix {
+	background-color: rgba(25,25,25,0.8)!important;  
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-transition: background-color 0.6s linear;
+	-moz-transition: background-color 0.6s linear;  
+	-o-transition: background-color 0.6s linear;         
+	transition: background-color 0.6s linear;
+}
+
+.navbar { 
+	background-color: rgb(25,25,25);
+	height: 88px;
+	-webkit-transition: background-color 0.6s ease;
+	-moz-transition: background-color 0.6s ease;  
+	-o-transition: background-color 0.6s ease;         
+	transition: background-color 0.6s ease;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.background-image {
+  background-image: url('https://www.santamonica.gov/Media/Default/Blog/police%20.jpg');
+  top: 0;
+  background-size: cover;
+  display: block;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  height: 800px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: -999;
+  overflow: hidden;
+}
+
+.content {
+	z-index: 1;
+}
+
+a.link {
+	position: relative;
+  	color: #007bff;
+  	text-decoration: none;	
+}
+
+a.link:hover {
+	color: #007bff;
+}
+
+a.link:before {
+	content: "";
+  	position: absolute;
+  	width: 100%;
+  	height: 1px;
+  	bottom: 0;
+  	left: 0;
+  	background-color: #007bff;
+  	visibility: hidden;
+  	-webkit-transform: scaleX(0);
+  	transform: scaleX(0);
+  	-webkit-transition: all 0.6s ease-in-out 0s;
+  	transition: all 0.6s ease-in-out 0s;
+}
+
+a.link:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.regSuccess {
+	letter-spacing: 1px;
+	color: dodgerblue;
+}
+
+.t-55 {
+	transform: translate(0%, 55%);
+}
+
+.bg-rgba169 {
+	background-color: rgba(169,169,169,0.8);
+}
+
+.side-info {
+	background: radial-gradient(circle, rgba(0,0,0,0.2), transparent);
+	padding: 3px;
+	padding-left: 6px;
+	color: lightslategray;
+	text-overflow: ellipsis;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px rgba(169,169,169,0.5) inset !important
+}
+
+h3.res-name {
+	font-size: 1rem;
+	padding-top: 20px;
+	text-decoration: underline;
+}
+
+h2.res-name {
+    font-size: 1.5rem;
+    color: rgba(25,25,25,0.4);
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+ul {
+	font-size: 0.8rem;
+	padding-left: 0;
+	list-style-type: none;
+}
+
+ul.side-info-list {
+	list-style-type: circle;
+	padding-left: 40px;
+}
+
+.ovrEllip {
+	text-overflow: ellipsis;
+}
+
+.bg-rgba202030 {
+	background-color:rgba(25,25,25,0.8);
+}
+
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 200px;
+  }
+}
+
+section {
+  padding: 150px 0;
+}
+
+footer {
+	background-color: rgb(25,25,25);
+}
+
+#navbarResponsive {
+	text-transform: uppercase;
+}
+
+.fig-cstm {
+	transform: translate(100%, 0%);
+}
+
+.cont-features {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.nav-link {
+	border-bottom: 1px solid transparent;
+	transition: border-color 0.3s ease;
+}
+
+.nav-link:hover {
+	border-bottom: 1px solid white;
+	transition: border-color 0.3s ease-in-out;
+}
+
+.dropdown-menu {
+    background: rgb(25,25,25);
+    border-radius: 0;
+    border: 0.5px solid rgb(20,20,20);
+    font-size: 0.65rem;
+    letter-spacing: 1px;
+	box-shadow: 1px 1.5px 2px rgba(25,25,25,0.7);	
+}
+
+.dropdown-item {
+	color: white!important;
+    min-width: 0!important;
+}
+
+.dropdown-item:hover {
+	background: rgba(35,35,35,0.8);
+}
+
+.dropdown .dropdown-menu {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+
+    max-height: 0;
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+    max-height: 200px;
+    opacity: 1;
+}
